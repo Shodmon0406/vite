@@ -1,0 +1,55 @@
+.div-img1 {
+    background-image:  url("@/assets/images/ps5-slim-goedkope-playstation_large 1.png");
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    justify-items: center;
+}
+
+
+.div-img2 {
+    background-image:  url("@/assets/images/attractive-woman-wearing-hat-posing-black-background 1.png");
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 240px;
+    color: white;
+    border-top-right-radius: 20px;
+    justify-items: center;
+}
+
+
+.div-img3 {
+    background-image:  url("@/assets/images/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png");
+    background-size: cover;
+    background-color: black;
+    width: 300px;
+    height: 240px;
+    color: white;
+    justify-items: center;
+}
+
+
+.div-img4 {
+    background-image:  url("@/assets/images/652e82cd70aa6522dd785109a455904c.png");
+    background-size: cover;
+    background-color: black;
+    width: 300px;
+    height: 240px;
+    color: white;
+    border-bottom-right-radius: 20px;
+    justify-items: center;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .div-img3 .div-img3 {
+        display: none;
+    }
+}

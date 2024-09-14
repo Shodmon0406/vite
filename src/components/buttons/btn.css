@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+}
+
+.btn-bol {
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    width: 300px;
+    transition: all 09s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+  }
+  
+  .btn-bol {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1s;
+  }
+  
+  .btn-bol:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn-bol:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+    background-color: rgb(190, 40, 40);
+  }
+  
+  .btn-bol:hover:after {
+    opacity: 1;
+    right: 15px;
+  }
